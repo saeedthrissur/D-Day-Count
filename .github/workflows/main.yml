@@ -28,5 +28,11 @@ jobs:
     - name: Create local.properties with Android SDK path
       run: echo "sdk.dir=$ANDROID_HOME" > local.properties
 
+    # കാണാതായ ഡീബഗ് കീസ്റ്റോർ ഫയൽ തനിയെ നിർമ്മിക്കാനുള്ള പുതിയ വരി:
+    - name: Setup Default Debug Keystore
+      run: |
+        mkdir -p ~/.android
+        keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+
     - name: Build FOSS Debug APK
       run: gradle assembleDebug
