@@ -1,0 +1,6 @@
+{
+  "name": "D-Day Count",
+  "description": "A privacy-first, fully featured open-source countdown and count-up calendar app with Group Filtering, Advanced Sorting, Local Backups, Custom Backgrounds, and Home Widgets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

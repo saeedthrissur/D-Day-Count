@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bounding box of main graphic: x=27 to 81, y=25 to 83 (centered inside 66dp safe zone) -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M81,31h-8v-4c0,-1.1 -0.9,-2 -2,-2h-4c-1.1,0 -2,0.9 -2,2v4h-22v-4c0,-1.1 -0.9,-2 -2,-2h-4c-1.1,0 -2,0.9 -2,2v4h-8c-3.3,0 -6,2.7 -6,6v44c0,3.3 2.7,6 6,6h54c3.3,0 6,-2.7 6,-6v-44c0,-3.3 -2.7,-6 -6,-6zM81,81h-54v-36h54v36zM81,39h-54v-2h54v2z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,49c-7.7,0 -14,6.3 -14,14s6.3,14 14,14s14,-6.3 14,-14s-6.3,-14 -14,-14zM54,73c-5.5,0 -10,-4.5 -10,-10s4.5,-10 10,-10s10,4.5 10,10s-4.5,10 -10,10z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53,55h2v8h5v2h-7z" />
+</vector>
