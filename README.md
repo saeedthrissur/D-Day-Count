@@ -1,21 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 📅 D-Day Count
 
-# Run and deploy your AI Studio app
+A privacy-first, fully featured open-source countdown and count-up calendar application for Android. Built with Jetpack Compose, Clean Architecture, and Room Database.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/c5411428-70e1-4969-aa4e-dfcae390093b
+## ✨ Features
 
-## Run Locally
+- **Privacy-First:** Completely offline-capable. No trackers, no analytics, and zero ads.
+- **Dynamic Sizing Widgets:** Highly configurable home screen widgets that adapt beautifully to your layout.
+- **Advanced Layout & Aesthetics:** Support for custom background photos (with built-in offline blur/crop filters), gradient layers, and asset stickers.
+- **Smart Calculations:** Simple countdown mode for short durations, shifting automatically to detailed breakdowns (Years, Months, Weeks, Days) for long-term milestones.
+- **Local Data Freedom:** Secure client-side import and export via Excel-compatible CSV sheets or full-state JSON configuration backups.
+- **Group Management:** Organise milestones seamlessly with custom filterable groups and quick sort controls.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+---
 
+## 🚀 Build Flavors
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+This project uses Gradle Product Flavors to stay 100% compliant with F-Droid's open-source policies while allowing extended features for alternative builds:
+
+1. **`foss` (Free and Open-Source):** Built strictly with open-source dependencies. Fully decoupled from proprietary background networks—perfect for F-Droid.
+2. **`google` (Extended Feature Platform):** Includes optional integrations for Google AI Studio / Gemini API infrastructure and runtime security configurations.
+
+---
+
+## 🛠️ How to Build & Run Locally
+
+### Prerequisites
+- [Android Studio](https://developer.android.com/studio) (Latest Version)
+- Android SDK 24 or higher
+
+### Local Setup
+1. Clone this repository to your local workspace or download and extract the source zip.
+2. Open **Android Studio**, select **Open**, and navigate to the project root directory.
+3. Allow Gradle to synchronize and resolve the structural properties.
+4. **For the `google` variant:** Create a `.env` file in the root directory and add your secret token key as specified in `.env.example`.
+5. Select your preferred build variant (`fossDebug` or `googleDebug`) via the **Build Variants** panel in Android Studio.
+6. Connect an Android device or launch an emulator, then click **Run**.
+
+---
+
+## 📄 License
+
+This project is licensed under the **GNU General Public License v3.0 (GPLv3)** - see the LICENSE file for details.
