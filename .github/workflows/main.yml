@@ -25,6 +25,8 @@ jobs:
       run: chmod +x gradlew
       continue-on-error: true
 
+    - name: Create local.properties with Android SDK path
+      run: echo "sdk.dir=$ANDROID_HOME" > local.properties
+
     - name: Build FOSS Debug APK
       run: gradle assembleDebug
-      
