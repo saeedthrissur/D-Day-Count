@@ -1,0 +1,12 @@
+D-Day Count is a clean, modern, and completely privacy-focused countdown application designed to help you keep track of your most important life events and milestones. 
+
+Whether you are counting down to an upcoming event or tracking the days that have passed since a memorable moment, D-Day Count offers a beautifully simple and seamless experience without any of the clutter.
+
+Key Features:
+• Clean & Minimalist UI: A gorgeous, distraction-free interface built with modern Android design standards.
+• Countdowns & Count-ups: Easily track days remaining until a future event or count days elapsed since a past milestone.
+• Privacy First: 100% Free and Open Source Software (FOSS). No tracking, no analytics, no unnecessary permissions, and absolutely no internet requirement. Your data stays securely on your device.
+• Lightweight & Fast: Optimized to be gentle on your device resources and battery.
+
+Take control of your important dates with a countdown app that truly respects your privacy.
+
